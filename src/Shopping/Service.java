@@ -57,5 +57,6 @@ public class Service implements ProductInterface{
 	public String isInstanceOf() {
 		return this.getClass().toString();
 	}
+	//HI
 
 }
