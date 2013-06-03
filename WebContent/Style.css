@@ -1,0 +1,71 @@
+body{
+	background-image:url("http://www.freegreatpicture.com/files/147/8299-background-color.jpg");
+}
+.products,.services{
+	width:40%;
+	display:inline-block;
+	margin-left:2%;
+	padding:2%;
+	margin-top:10px;
+	background:rgba(125,125,0,0.4);
+
+}
+.cart{
+	border:1px solid black;
+	background:rgba(255,0,0,0.5);
+	display:none;
+	margin-top:10px;
+	padding:20px;
+	border-radius:20px;
+}
+.products div,.cart div,.services div{
+	display:inline-block;
+}
+p{
+	margin:0px;
+	padding:0px;
+}
+.cart div{
+	border:1px solid black;
+}
+.ones{
+	margin-top:10px;
+	border:1px solid black;
+	padding:5%;
+	background:rgba(0,0,0,0.8);
+	opacity:0.9;
+	border-radius:20px;
+	width:20%;
+	padding:2%;
+	
+}
+.ones:hover{
+	opacity:1;
+}
+h1{
+	color:white;
+}
+.dve{
+	margin-top:10px;
+	border:1px solid black;
+	padding:1%;
+	background:rgba(255,255,255,0.8);
+	opacity:0.9;
+	border-radius:20px;
+	width:150px;
+}
+#show{
+	display:none;
+}
+#show:checked + .cart
+{
+	display:block;
+}
+label[for="show"]{
+	display:block;
+	padding:10px;
+	color:white;
+	background-color:black;
+	font-size:1.5em;
+	text-align:center;
+}
